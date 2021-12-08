@@ -1,0 +1,43 @@
+body{
+	background-color: #0F222D;
+}
+#Subtitulo{
+	position: absolute;
+	left: 7%;
+	top: 25%;
+}
+#Principal{
+	position: absolute;
+	background-color: #0F222D;
+	width: 30%;
+	height: 50%;
+	right: 20%;
+	top: 25%;
+}
+#Principal > div{
+	display: block;
+	padding: 10px;
+	text-align: center;
+}
+.CampoT{
+	width: 80%;
+	background-color: #EBE7D9;
+	border: none;
+	height: 10%;
+	color: white;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	padding: 10px 10px 20px 20px;
+	
+}
+.main-btn{
+	background-color: #BA3521;
+	color: #FFF;
+	text-transform: Irish;
+	height: 80px;
+	padding: 10px 60px;
+	border-radius: 5px;
+	border: 3px solid transparent;
+	transition: .5s;
+	text-decoration: none;
+}
